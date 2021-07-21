@@ -1,0 +1,41 @@
+* {
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+body{
+    background-color:#f8a488;
+}
+
+#main{
+    background-color: #f8f5f1;
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px ;
+}
+
+.font{
+    font-size: 20px ;
+}
+
+@media screen and (max-width:400px) {
+    h1{
+        font-size: 40px;
+    }
+    
+    p{
+        font-size: 20px ;
+    }
+    .font{
+        font-size: 17px ;
+    }
+}

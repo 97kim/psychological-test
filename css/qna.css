@@ -1,0 +1,60 @@
+#qna{
+    display: none;
+}
+
+.qBox{
+    background-color: #f8f5f1;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 30px;
+    box-shadow: 1px 1px 5px 0.1px #45526c;
+    margin-bottom: 100px;
+}
+
+.answerList{
+    background-color: #f8f5f1;
+    text-align: center;
+    border-radius: 15px;
+    display: block;
+    width: 100%;
+    border:0px;
+}
+
+.answerList:hover, .answerList:focus {
+    background-color: #45526c;
+    color: #f8f5f1;
+}
+
+.status{
+    width: 90%;
+    height: 20px;
+    background-color: white ;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 1px 1px 3px 0.1px #45526c;
+}
+
+.statusBar{
+    height: 100%;
+    border-radius: 20px;
+    background-color: #5aa897;
+}
+
+.statusNum{
+    font-size: 21px;
+    text-align: center;
+    color:#fff;
+}
+
+button{
+    font-size: 25px;
+}
+
+@media screen and (max-width:400px) {
+    button{
+        font-size: 20px;
+    }
+    .qBox{
+        font-size: 25px;
+    }   
+}
