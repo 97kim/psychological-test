@@ -1,4 +1,4 @@
-const url = "https://totoy.netlify.app/";
+const url = "https://appkimkj.netlify.app/";
 
 function setShare(){
     var resultImg = document.querySelector("#resultImg");
